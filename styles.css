@@ -5,7 +5,7 @@
 }
 h1{
 margin:0;
-padding-top: 80px;
+padding-top: 5%;
 font-family: 'Sacramento', cursive ;
 font-size: 3.5rem;
 color: #66BFBF
@@ -59,12 +59,13 @@ h3{
 .top_cloud
 {
   position: absolute;
-  left: 950px;
+  left: 60%;
+  z-index: 1;
 }
 .bottom_cloud
 {
   position: absolute;
-  left: 520px;
+  left: 30%;
 }
 a{
   color: #11999E;
@@ -144,4 +145,19 @@ text-decoration: none
 }
 .middle-container{
   margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+  h1 {
+    padding-top: 10%;
+  }
+  .image
+  {
+    width: 60%;
+    padding-top: 5%;
+    z-index: 5;
+  }
 }
